@@ -11,13 +11,13 @@ font-family: 'Nunito', sans-serif; */
 body {
   font-family: var(--defaul-font-family);
 }
-h2{
-    font-size: 42px;
-    font-weight: bold;
+h2 {
+  font-size: 42px;
+  font-weight: bold;
 }
-p{
-    font-size: 18px;
-    line-height: 30px;
+p {
+  font-size: 20px;
+  line-height: 30px;
 }
 pre {
   line-height: 0.5;
@@ -82,8 +82,8 @@ pre {
     border-radius: 10px;
     margin: 30px;
 } */
-.btn-readMore{
-    border-radius: 5px;
+.btn-readMore {
+  border-radius: 5px;
   background: var(--first-color);
   /* 22577A */
   /* #889EAF; */
@@ -91,8 +91,24 @@ pre {
   padding: 10px 25px;
   font-size: 12px;
   font-weight: bold;
-  border:solid 1px var(--second-color);
+  border: solid 1px var(--second-color);
 }
-.descriptionContent{
-    padding: 30px 50px;
+.descriptionContent {
+  padding: 30px 50px;
+}
+@media (max-width: 990px) {
+  .hero h1 {
+    font-size: 32px;
+    line-height: 2;
+  }
+  .hero h2,
+  h3 {
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  .descriptionContent  {
+    padding: 0;
+    text-align: center;
+    color: red;
+  }
 }
