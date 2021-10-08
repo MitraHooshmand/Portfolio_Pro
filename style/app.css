@@ -2,17 +2,36 @@
 font-family: 'Mandali', sans-serif;
 font-family: 'Noto Sans Display', sans-serif;
 font-family: 'Nunito', sans-serif; */
-:root{
-    --first-color:#f1eded;
-    --second-color:#38A3A5;
-    --defaul-font-family:"Nunito", sans-serif;
-    --special-font-family:"Caveat", cursive;
+:root {
+  --first-color: #f1eded;
+  --second-color: #38a3a5;
+  --defaul-font-family: "Nunito", sans-serif;
+  --special-font-family: "Caveat", cursive;
 }
 body {
   font-family: var(--defaul-font-family);
 }
+pre {
+  line-height: 0.5;
+  opacity: 0.4;
+  text-align: center;
+}
 .hero {
-  background-color:var(--first-color) ;
+  /* background-color: var(--first-color); */
+  background: #d5d4d0;
+  background: -moz-linear-gradient(
+    to right,
+    #d5d4d0 0%,
+    #efeeec 50%,
+    #d5d4d0 100%
+  );
+  background: -webkit-linear-gradient(
+    to right,
+    #d5d4d0 0%,
+    #efeeec 50%,
+    #d5d4d0 100%
+  );
+  background: linear-gradient(to right, #d5d4d0 0%, #efeeec 50%, #d5d4d0 100%);
   text-align: center;
   padding: 60px 0;
   border-radius: 15px;
@@ -39,12 +58,12 @@ body {
   font-weight: bold;
   opacity: 0.7;
 }
- .btn-contactMe{
-    border-radius:5px;
-    background:var(--second-color);
-    /* 22577A */
-    /* #889EAF; */
-    color: var(--first-color);
-    padding: 10px 25px;
-    font-size:12px
- }
+.btn-contactMe {
+  border-radius: 5px;
+  background: var(--second-color);
+  /* 22577A */
+  /* #889EAF; */
+  color: var(--first-color);
+  padding: 10px 25px;
+  font-size: 12px;
+}
