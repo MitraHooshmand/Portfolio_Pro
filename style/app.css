@@ -2,4 +2,49 @@
 font-family: 'Mandali', sans-serif;
 font-family: 'Noto Sans Display', sans-serif;
 font-family: 'Nunito', sans-serif; */
+:root{
+    --first-color:#f1eded;
+    --second-color:#38A3A5;
+    --defaul-font-family:"Nunito", sans-serif;
+    --special-font-family:"Caveat", cursive;
+}
+body {
+  font-family: var(--defaul-font-family);
+}
+.hero {
+  background-color:var(--first-color) ;
+  text-align: center;
+  padding: 60px 0;
+  border-radius: 15px;
+}
+.hero img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 16%;
+}
 
+.hero h1 {
+  font-family: var(--special-font-family);
+  font-size: 90px;
+}
+.hero h2 {
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.hero h3 {
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+ .btn-contactMe{
+    border-radius:5px;
+    background:var(--second-color);
+    /* 22577A */
+    /* #889EAF; */
+    color: var(--first-color);
+    padding: 10px 25px;
+    font-size:12px
+ }
