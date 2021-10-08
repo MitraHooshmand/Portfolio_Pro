@@ -11,10 +11,19 @@ font-family: 'Nunito', sans-serif; */
 body {
   font-family: var(--defaul-font-family);
 }
+h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
 pre {
   line-height: 0.5;
   opacity: 0.4;
   text-align: center;
+  margin: 90px 0;
 }
 .hero {
   /* background-color: var(--first-color); */
@@ -66,4 +75,24 @@ pre {
   color: var(--first-color);
   padding: 10px 25px;
   font-size: 12px;
+}
+
+/* .projectImage{
+    width: 300px;
+    border-radius: 10px;
+    margin: 30px;
+} */
+.btn-readMore{
+    border-radius: 5px;
+  background: var(--first-color);
+  /* 22577A */
+  /* #889EAF; */
+  color: var(--second-color);
+  padding: 10px 25px;
+  font-size: 12px;
+  font-weight: bold;
+  border:solid 1px var(--second-color);
+}
+.descriptionContent{
+    padding: 30px 50px;
 }
