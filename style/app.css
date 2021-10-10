@@ -76,12 +76,6 @@ pre {
   padding: 10px 25px;
   font-size: 12px;
 }
-
-/* .projectImage{
-    width: 300px;
-    border-radius: 10px;
-    margin: 30px;
-} */
 .btn-readMore {
   border-radius: 5px;
   background: var(--first-color);
@@ -100,14 +94,22 @@ pre {
     list-style: none;
     margin: 0;
     padding: 0;
-    /* display: flex;
-    justify-content: center; */
     border-top: 1px solid #646360;
     width: 11%;
 }
 .IconList li{
     display: inline;
     padding: 10px;
+}
+.aboutme h1{
+text-align: center;
+font-weight: bold;
+padding-top: 120px;
+}
+.aboutme img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
 }
 @media (max-width: 990px) {
     .hero{
