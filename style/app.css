@@ -104,10 +104,10 @@ pre {
 .aboutme h1{
 text-align: center;
 font-weight: bold;
-padding-top: 120px;
+padding-top: 90px;
 }
 .aboutme img{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: block;
 }
