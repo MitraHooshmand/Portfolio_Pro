@@ -75,6 +75,8 @@ pre {
   color: var(--first-color);
   padding: 10px 25px;
   font-size: 12px;
+  display: block;
+  margin: 0 auto;
 }
 .btn-readMore {
   border-radius: 5px;
