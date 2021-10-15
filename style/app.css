@@ -75,9 +75,9 @@ pre {
   color: var(--first-color);
   padding: 10px 25px;
   font-size: 12px;
-  display: block;
-  margin: 0 auto;
-  width: 15%;
+  /* display: block; */
+  /* margin: 0 auto; */
+  /* width: 15%; */
 }
 .btn-readMore {
   border-radius: 5px;
@@ -127,6 +127,43 @@ padding-top: 90px;
 }
 .navbar-nav{
  float: right ;
+}
+footer{
+  margin: 60px 0;
+}
+footer .contact-box{
+  background-color: var(--first-color);
+  padding: 30px 150px;
+}
+footer .contact-box h4{
+  font-weight: bold;
+}
+footer .email-link{
+text-decoration: none;
+text-align: center;
+display: block;
+margin: 0  auto;
+color: black;
+font-weight: bold;
+font-size: 20px;
+
+}
+footer .email-link:hover{
+  color: var(--second-color);
+  
+}
+footer .social-link a {
+  margin: 16px 30px;
+  color:var(--second-color);
+  background-color: var(--first-color);
+  border-radius: 50%;
+  padding: 10px 14px;
+  font-size: 18px;
+}
+footer .social-link a:hover{
+  color: var(--first-color)  ;
+  background-color: var(--second-color);
+  transition: all 100ms  ease-in-out;
 }
 @media (max-width: 990px) {
     .hero{
