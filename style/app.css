@@ -137,7 +137,12 @@ padding-top: 90px;
       margin: 0 auto;
       width: 70%;
   }
-
+.aboutme{
+  text-align: center;
+  line-height: 1.8;
+  font-size: 12px;
+  padding: 20px;
+}
 
  
 }
